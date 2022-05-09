@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Account (Homework_5-6)</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	<div class="wrapper">
+
+		<header class="header_container">
+			<nav class="nav_menu">
+				<li class="nav_menu_item">
+					<a class="nav_menu_link_active" href="index.html">Main</a>
+				</li>
+				<li class="nav_menu_item">
+					<a class="nav_menu_link" href="team.html
+					">Team</a>
+				</li>
+				<li class="nav_menu_item">
+					<a class="nav_menu_link" href="lessons.html">Lessons</a>
+				</li>
+			</nav>
+		</header>
+
+		<main class="main_container">
+			<aside>
+				<ul class="side_nav">
+					<li>
+						<div class=" side_btn">
+							<a class="side_nav_item" href="#" style="background-image: url(images/folder.svg);"></a>
+							<span class="hide_text">Project</span>
+						</div>
+					</li>
+					<li>
+						<div class="side_btn side_btn_blue">
+							<a class="side_nav_item " href="#" style="background-image: url(images/monitor.svg);"></a>
+							<span class="hide_text">Account</span>
+						</div>
+					<li>
+						<div class="side_btn">
+							<a class="side_nav_item" href="#" style="background-image: url(images/users-alt.svg);"></a>
+							<span class="hide_text">Groups</span>
+						</div>
+					<li>
+						<div class="side_btn">
+							<a class="side_nav_item " href="#"
+								style="background-image: url(images/cloud-share.svg);"></a>
+							<span class="hide_text">Cloud</span>
+						</div>
+					<li>
+						<div class="side_btn">
+							<a class="side_nav_item " href="#" style="background-image: url(images/cog.svg);"></a>
+							<span class="hide_text">Setting</span>
+						</div>
+				</ul>
+			</aside>
+
+			<section class="account_container grid">
+				<section class="block_andy account_container_item">
+					<img class="logos" src="images/logo_andy.svg" alt="logo-1">
+					<div class="text_top">
+						<h3>Andy Cube</h3>
+						<span>Andycube@gmail.com</span>
+					</div>
+				</section>
+
+				<div class="block_password account_container_item">
+					<section class="block_top">
+						<img class="logos" src="images/Lock.svg" alt="logo-2">
+						<div class="text_top">
+							<h3>Change Password</h3>
+							<span>Please choose a password which is longer than 6 characters</span>
+						</div>
+					</section>
+					<form class="form_password" action="">
+						<label class="label_text" for="old">Old password</label><br>
+						<input type="text" id="old" name="password" placeholder="Enter password">
+						<label class="label_text" for="new">New password</label><br>
+						<input type="text" id="new" name="paswword" placeholder="Enter password">
+						<label class="label_text" for="confirm">Confirm password</label><br>
+						<input type="text" id="confirm" name="password" placeholder="Enter password">
+					</form>
+				</div>
+
+				<div class="block_comp-info account_container_item ">
+					<section class="block_top">
+						<img class="logos" src="images/Lock.svg" alt="logo-3">
+						<div class="text_top">
+							<h3>Company</h3>
+							<span>Optional, but we would appreciate if you
+								fill out these form</span>
+						</div>
+					</section>
+					<form action="" class="form_comp-info">
+						<label class="label_text" for="name_">Company name</label><br>
+						<input type="text" id="name_" name="company" placeholder="Logos IT Academy">
+						<label class="label_text" for="address">Company address</label><br>
+						<textarea type="text" id="address" name="company" placeholder="61, I/Franka, Lviv"></textarea>
+
+						<div class="bottom_block">
+							<div class="bottom_block_item">
+								<label class="label_text_bottom" for="country">Country</label><br>
+								<input class="input_text_bottom" type="text" id="country" name="company"
+									placeholder="Enter country">
+							</div>
+							<div class="bottom_block_item">
+								<label class="label_text_bottom" for="name_">City</label><br>
+								<input class="input_text_bottom" type="text" id="name_" name="company"
+									placeholder="Enter city">
+							</div>
+							<div class="bottom_block_item">
+								<label class="label_text_bottom" for="name_">State</label><br>
+								<input class="input_text_bottom" type="text" id="name_" name="company"
+									placeholder="Enter state">
+							</div>
+							<div class="bottom_block_item">
+								<label class="label_text_bottom" for="name_">Postal code</label><br>
+								<input class="input_text_bottom" type="text" id="name_" name="company"
+									placeholder="Enter code">
+							</div>
+
+						</div>
+
+
+					</form>
+				</div>
+
+
+
+			</section>
+		</main>
+	</div>
+</body>
+
+</html>
